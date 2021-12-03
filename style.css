@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.border-r-top {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.border-r-bottom {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.container {
+    width: 448px;
+    height: 349px;
+}
+
+.title {
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #111827;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 16.98px;
+}
+
+.login {
+    color: #111827;
+    margin-top: 32px;
+    height: 181px;
+    border-color: solid red 2px;
+}
+
+.login {
+    font-size: 14px;
+}
+
+.login-input {
+    width: 100%;
+    height: 38px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.login-btn-div {
+    margin-top: 24px;
+    height: 38px;
+}
+
+.login-btn {
+    background-color: #4f46e5;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    height: 38px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 0.375rem;
+}
+
+.remember-forgot-pass {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    height: 20px;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 14px;
+}
+
+.remember-me p {
+    margin-left: 8px;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.title img {
+    width: 52.5px;
+    height: 48px;
+}
+
+.title h2 {
+    margin-top: 0.83rem;
+}
+
+.title p {
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    color: #4f46e5;
+}
