@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -6,11 +6,13 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    height: 100%;
+    margin: 0;
 }
 
 .border-r-top {
@@ -35,7 +37,7 @@ body {
     color: #111827;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    font-size: 16.98px;
+    font-size: 20px;
 }
 
 .login {
@@ -109,6 +111,7 @@ body {
 
 .title h2 {
     margin-top: 0.83rem;
+    font-weight: 800;
 }
 
 .title p {
@@ -118,5 +121,6 @@ body {
 
 a {
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
     color: #4f46e5;
 }
